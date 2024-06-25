@@ -1232,7 +1232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28a6139db445bef438da79a8b1e1695f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  models: []
+  objects: []
 --- !u!4 &580670596
 Transform:
   m_ObjectHideFlags: 0
@@ -1674,12 +1674,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3805fa011e2c1542b8bd1d03721ce15, type: 3}
---- !u!1 &1045872821 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: c3805fa011e2c1542b8bd1d03721ce15,
-    type: 3}
-  m_PrefabInstance: {fileID: 1045872820}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1129755272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,7 +1701,7 @@ RectTransform:
   m_GameObject: {fileID: 1129755272}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.5}
   m_Children:
   - {fileID: 1692517762}
   - {fileID: 1328307756}
@@ -1889,12 +1883,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09edf99adb66f004aa96ca04551a8e57, type: 3}
---- !u!1 &1277140118 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 09edf99adb66f004aa96ca04551a8e57,
-    type: 3}
-  m_PrefabInstance: {fileID: 1277140117}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1328307755
 GameObject:
   m_ObjectHideFlags: 0
@@ -2505,12 +2493,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d307ed5039c4a0846940cd73f64a5b61, type: 3}
---- !u!1 &1570491229 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100004, guid: d307ed5039c4a0846940cd73f64a5b61,
-    type: 3}
-  m_PrefabInstance: {fileID: 1570491228}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1622751416
 GameObject:
   m_ObjectHideFlags: 0
@@ -3011,12 +2993,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a071b91e41679dc469852a53e86061c2, type: 3}
---- !u!1 &1906327296 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100020, guid: a071b91e41679dc469852a53e86061c2,
-    type: 3}
-  m_PrefabInstance: {fileID: 1906327295}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2034113092
 GameObject:
   m_ObjectHideFlags: 0
