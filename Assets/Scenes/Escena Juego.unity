@@ -1326,7 +1326,7 @@ GameObject:
   - component: {fileID: 580670596}
   - component: {fileID: 580670595}
   m_Layer: 0
-  m_Name: OBEJCTMANAGER
+  m_Name: OBJECTMANAGER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1934,7 +1934,7 @@ GameObject:
   - component: {fileID: 1129755275}
   - component: {fileID: 1129755274}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: PanelDeNotificaciones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2164,7 +2164,7 @@ GameObject:
   - component: {fileID: 1328307758}
   - component: {fileID: 1328307757}
   m_Layer: 5
-  m_Name: Btn_bolber a jugar
+  m_Name: Btn_volverAJugar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2945,7 +2945,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jugar otra bez
+  m_Text: Jugar otra vez
 --- !u!222 &1622751419
 CanvasRenderer:
   m_ObjectHideFlags: 0
