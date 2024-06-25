@@ -10,13 +10,8 @@ public class OBJECTMANAGER : MonoBehaviour
     {
         DeactivateAll();
         addRandomObjs();
-    }
+    } 
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     void DeactivateAll()
     {
         for (int i = 0; i < objects.Length; i++)
@@ -31,12 +26,12 @@ public class OBJECTMANAGER : MonoBehaviour
     {
         int rNum1 = Random.Range(0, objects.Length);
         objects[rNum1].SetActive(true);
+        objects[rNum1].transform.position = new Vector3(-7.16F, 0.37F, 0); //La ubicación que le puso Félix al modelo "Mayer_Ramiro_48792120"
+
+
 
         int rNum2 = Random.Range(0, objects.Length);
-        while(rNum1 == rNum2)
-        {
-            rNum2 = Random.Range(0, objects.Length);
-        }
         objects[rNum2].SetActive(true);
+        objects[rNum2].transform.position = new Vector3(-1.91F, 0.48F, -0.82F); //La ubicación que le puso Félix al modelo "Corsunsky Gayá_Manuel_48592035"
     }
 }

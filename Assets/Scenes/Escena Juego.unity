@@ -272,7 +272,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ingrese el resultado
+  m_Text: '?'
 --- !u!222 &114353440
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1174,7 +1174,7 @@ GameObject:
   - component: {fileID: 543944727}
   - component: {fileID: 543944726}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: input_respuesta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1240,13 +1240,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 543944727}
   m_TextComponent: {fileID: 425341592}
   m_Placeholder: {fileID: 114353439}
-  m_ContentType: 0
+  m_ContentType: 2
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 4
   m_LineType: 0
   m_HideMobileInput: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 1
   m_CharacterLimit: 0
   m_OnEndEdit:
     m_PersistentCalls:
@@ -1422,7 +1422,7 @@ GameObject:
   - component: {fileID: 580670595}
   m_Layer: 0
   m_Name: OBJECTMANAGER
-  m_TagString: Untagged
+  m_TagString: omTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1439,7 +1439,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28a6139db445bef438da79a8b1e1695f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objects: []
+  objects:
+  - {fileID: 1544148867}
+  - {fileID: 1461134378}
+  - {fileID: 447816372}
+  - {fileID: 2113650361}
+  - {fileID: 1762092496}
+  - {fileID: 2059097824}
+  - {fileID: 212605475}
+  - {fileID: 1570491229}
+  - {fileID: 737618616}
+  - {fileID: 1534832745}
+  - {fileID: 1045872821}
+  - {fileID: 1344428744}
+  - {fileID: 478972073}
+  - {fileID: 1358561993}
+  - {fileID: 1277140118}
+  - {fileID: 2183269}
+  - {fileID: 751369448}
+  - {fileID: 1018623459}
+  - {fileID: 1906327296}
+  - {fileID: 445326511}
+  - {fileID: 618907019}
 --- !u!4 &580670596
 Transform:
   m_ObjectHideFlags: 0
@@ -2129,7 +2150,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1129755273
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2165,7 +2186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.88235295}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
