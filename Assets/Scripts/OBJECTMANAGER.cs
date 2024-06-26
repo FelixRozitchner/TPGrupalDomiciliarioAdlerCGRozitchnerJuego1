@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class OBJECTMANAGER : MonoBehaviour
 {
@@ -10,13 +8,13 @@ public class OBJECTMANAGER : MonoBehaviour
     {
         DeactivateAll();
         addRandomObjs();
-    } 
+    }
 
     void DeactivateAll()
     {
         for (int i = 0; i < objects.Length; i++)
         {
-            if(objects[i].activeInHierarchy == true)
+            if (objects[i].activeInHierarchy == true)
             {
                 objects[i].SetActive(false);
             }
